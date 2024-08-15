@@ -808,7 +808,7 @@ video {
 }
 
 .bg-hero-image {
-  background-image: url('/src/assets/img/background/background-lines.svg');
+  background-image: url('../../assets/img/background/background-lines.svg');
 }
 
 .bg-cover {
@@ -825,14 +825,6 @@ video {
 
 .fill-yellow-500 {
   fill: #eab308;
-}
-
-.fill-gray-200 {
-  fill: #e5e7eb;
-}
-
-.stroke-gray-300 {
-  stroke: #d1d5db;
 }
 
 .p-2 {
