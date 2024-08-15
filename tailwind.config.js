@@ -4,6 +4,9 @@ module.exports = {
     darkMode: "selector",
     theme: {
         extend: {
+            backgroundImage: {
+                'hero-image': "url('/src/assets/img/background/background-lines.svg')"
+            },
             fontFamily: {
                 poppins: ["poppins", "sans-serif"],
                 bangers: ["bangers", "system-ui"],

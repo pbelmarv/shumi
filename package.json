@@ -1,19 +1,19 @@
 {
   "name": "shumi",
+  "homepage": "https://github.com/pbelmarv/shumi",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./src/assets/css/styles.css --watch"
+    "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./src/assets/css/styles.css --watch",
+    "deploy": "gh-pages -d src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.9"
-  },
-  "dependencies": {
-    "gh-pages": "^6.1.1"
   }
 }
